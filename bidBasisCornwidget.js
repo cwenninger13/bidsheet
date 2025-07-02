@@ -32,7 +32,7 @@
         color: #666;
       }
     </style>
-    <h2>Corn Updated</h2>
+    <h2>Corn</h2>
     <table class="corn-bid-table">
       <thead>
         <tr>
