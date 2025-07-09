@@ -112,8 +112,8 @@
           <td>${row.delivery}</td>
           <td>${row.symbol}</td>
           <td>${futPrice}</td>
-          <td style="color: ${future.change >= 0 ? 'green' : 'red'};">${futChange}</td>
-          <td>${basis}</td>
+          <td>${futChange}</td>
+          <td style="color: ${row.basis >= 0 ? 'green' : 'red'};">${basis}</td>
           <td>${bid}</td>
         `;
         tbody.appendChild(tr);
